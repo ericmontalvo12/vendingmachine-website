@@ -718,6 +718,10 @@ li {
     .main-div{
         width: 100%;
     }
+
+    .section-9-div{
+        width: 100%;
+    }
 }
 
 @media (min-width: 768px){
