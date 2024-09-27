@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vending.css">
+</head>
+<body>
+
+    <nav class="top-nav">
+        <div class="contact-div">
+            <div class="email-side">
+                <img src="email-icon.png" alt="">
+                <a class="email-anchor" href="mailto:eddy@gmail.com"> eddy@gmail.com</a>
+            </div>
+
+            <div class="phone-side">
+                <img src="phone-icon.png" alt="">
+                <a class="phone-anchor" href="tel:3053510004">(305) 351-0004</a>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="middle-nav"></nav>
+
+    <nav class="bottom-nav">
+        <div class="left-side-nav">
+            <img  onclick="window.location.href = 'vending.html'" class="logo" src="logo-header.jpg" alt="">
+        </div>
+        <div class="right-side-nav">
+            <div class="right-side-top">
+                <button onclick="window.location.href = 'vending.html'"class="nav-buttons">Home</button>
+                <button onclick="window.location.href = 'Aboutus.html'" class="nav-buttons">About Us</button>
+                <button onclick="window.location.href= 'products.html'" class="nav-buttons">Products</button>
+                <button onclick="window.location.href='Servicearea.html'" class="nav-buttons">Service Area</button>
+                <button onclick="window.location.href='contact.html'" class="nav-buttons">Contact</button>
+            </div>
+            <div class="right-side-bottom">
+                <button class="request-service-button">Request <u>FREE</u> Vending Service</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="category-section">
+        <h5>Contact Us</h5>
+    </section>
+
+    <section class="section9">
+        <div class="section9-div">
+            <div>
+                <p class="section9-heading">
+                    We bring both traditional and healthy vending options to businesses, locations and facilities in the Miami, FL and surrounding areas.  If you’re in need of vending services at your business, contact us now!  We’d love to hear from you.
+                </p>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <!-- First Row -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">Name <span>*</span></label>
+                        <input type="text" id="firstName" name="firstName" placeholder="First" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">&nbsp;</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Last" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="businessName">Business Name <span>*</span></label>
+                        <input type="text" id="businessName" name="businessName" required>
+                    </div>
+                </div>
+
+                <input type="hidden" name="access_key" value="545036cd-2dbb-49ca-8d0c-aef71bd4ac8a">
+
+    
+                <!-- Second Row -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label id="email" for="email">Email <span>*</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone <span>*</span></label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="businessType">Type of Business <span>*</span></label>
+                        <select id="businessType" name="businessType" required>
+                            <option value="apartment">Apartment</option>
+                            <option value="office">Office</option>
+                            <option value="retail">Retail</option>
+                            <option value="school">School</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <!-- Comments and CAPTCHA -->
+                <div class="form-group">
+                    <label for="comments">Questions / Comments</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+    
+                <div class="form-group captcha">
+                    <label>CAPTCHA</label>
+                    <span>2 + 3</span>
+                    <input type="text" id="captcha" name="captcha" placeholder="Enter the answer" required>
+                </div>
+    
+                <button class="submit-form-button" type="submit">Submit</button>
+            </form>
+        </div>            
+
+            
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    
+
+    <footer class="footer">
+        <div class="left-footer">
+            <img class="footer-logo" src="logo-header.jpg" alt="">
+        </div>
+        <div class="right-footer">
+            <div class="info-div">
+                <p class="footer-header">Business Hours</p>
+                <p class="footer-text"><strong>Mon – Fri:</strong> 8am – 5pm</p>
+                <p class="footer-text"><strong>Sat – Sun:</strong> Closed</p>
+                <p class="footer-text"><strong>Emergency:</strong> Anytime</p>
+            </div>
+            <div class="info-div">
+                <p class="footer-header">Our Location</p>
+                <p class="footer-text">Miami, FL 33134</p>
+                <p class="footer-text">(786) 351-0004</p>
+                <p class="footer-text">Send us a message</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

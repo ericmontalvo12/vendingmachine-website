@@ -1,0 +1,711 @@
+body {
+    margin: 0;
+}
+
+p {
+    font-family: Merriweather;
+}
+
+.top-nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 22px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: rgb(22, 32, 85);
+    border-bottom: 3px;
+    border-bottom-color: rgb(39, 170, 226);
+    border-bottom-style: solid;
+}
+
+.contact-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+}
+
+
+.phone-anchor,
+.email-anchor {
+    font-family: Merriweather;
+    font-size: 13px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: inherit;
+}
+
+.contact-icons {
+    margin-top: 10px;
+}
+
+.email-side,
+.phone-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+.bottom-nav {
+    top: 45px;
+    left: 0;
+    right: 0;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.left-side-nav {
+    background-color: white;
+    margin-left: 50px;
+    height: 117px;
+    width: 100px;
+}
+
+.logo {
+    height: 100%;
+    cursor: pointer;
+}
+
+.right-side-nav {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right-side-top {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.nav-buttons {
+    font-family: Merriweather;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+    color: rgb(39, 170, 226);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.right-side-bottom {
+    margin-top: 10px;
+    margin-left: 140px;
+
+}
+
+.request-service-button {
+    font-family: Merriweather;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(39, 170, 226);
+    border: solid 2px rgb(22, 32, 85);
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-section {
+    background: url(palmdale-header-bg.jpeg);
+    no-repeat;
+    background-position: top center;
+    /* Specify position separately */
+    background-size: cover;
+    /* Ensure image covers the area */
+    width: 100%;
+    height: 930px;
+    display: flex;
+    align-items: flex-start;
+    /* Align items to the top */
+    justify-content: center;
+    /* Center items horizontally */
+    position: relative;
+    /* Keeps positioning in check */
+    margin-top: 10px;
+    /* Add margin for spacing */
+}
+
+.main-image {
+    width: 100%;
+    height: 720px;
+}
+
+.main-div {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-top: 100px;
+    width: 850px;
+    height: 269px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 64px;
+    font-family: Merriweather;
+    color: white;
+}
+
+.main-paragraph {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: Merriweather;
+    color: white;
+}
+
+.div-row1 {
+    height: 90px;
+}
+
+.main-button {
+    margin: 0;
+    font-family: Merriweather;
+    font-weight: bold;
+    width: 420px;
+    height: 58.28px;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(39, 170, 226);
+    border: solid 2px rgb(22, 32, 85);
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.section2 {
+    width: 100%;
+    height: 775px;
+    display: flex;
+    align-items: flex-start;
+    /* Align items to the top */
+    justify-content: center;
+    /* Center items horizontally */
+    position: relative;
+    /* Keeps positioning in check */
+}
+
+.section2-div {
+    border-radius: 20px;
+    margin-top: 100px;
+    width: 1140px;
+    height: 671px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* More concise way to define 3 columns */
+    align-items: start;
+    /* Align items at the start */
+    justify-items: center;
+    /* Center items horizontally within their grid cells */
+    gap: 50px;
+    /* Optional: adds space between grid items */
+}
+
+.grid-column {
+    display: flex;
+    flex-direction: column;
+    /* Change to column to stack image and text */
+    align-items: center;
+    /* Center items horizontally within the column */
+    text-align: center;
+    /* Center text for better aesthetics */
+    height: auto;
+    /* Remove fixed height for flexibility */
+}
+
+.grid-pictures {
+    width: 189px;
+}
+
+h2 {
+    font-family: Merriweather;
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(22, 32, 85);
+}
+
+h3 {
+    margin-top: 70px;
+    margin-bottom: 0px;
+    font-family: Merriweather;
+    color: rgb(39, 170, 226);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.grid-paragraph {
+    font-size: 16px;
+    color: black;
+    font-family: Merriweather;
+    margin-top: 10px;
+}
+
+.section3 {
+    background-color: rgb(39, 170, 226);
+    width: 100%;
+    height: 1114px;
+    display: flex;
+    align-items: flex-start;
+    /* Align items to the top */
+    justify-content: center;
+    /* Center items horizontally */
+    position: relative;
+    /* Keeps positioning in check */
+}
+
+.section3-div {
+    border-radius: 20px;
+    margin-top: 70px;
+    width: 1140px;
+    height: 671px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s3-top-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1140px;
+}
+
+
+.s3-heading {
+    font-family: Merrierweather;
+    color: white;
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.s3-paragraph {
+    margin-top: 10px;
+    font-family: Merrierweather;
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.section4 {
+    margin-top: 80px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: flex-start;
+    /* Align items to the top */
+    justify-content: center;
+    /* Center items horizontally */
+    position: relative;
+    /* Keeps positioning in check */
+}
+
+.container {
+    width: 920px;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* First and second row styling */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 1;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+span {
+    color: red;
+}
+
+.captcha {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.submit-form-button {
+    width: 918px;
+    padding: 10px;
+    background-color: rgb(39, 170, 226);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.request-service-button:hover,
+.main-button:hover,
+.submit-form-button:hover {
+    background-color: rgb(22, 32, 85);
+    border: solid 1px rgb(39, 170, 226);
+}
+
+.form-group {
+    margin-right: 20px;
+}
+
+h4 {
+    font-family: Merriweather;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(22, 32, 85);
+}
+
+.section5 {
+    margin-top: 50px;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: flex-start;
+    /* Align items to the top */
+    justify-content: center;
+    /* Center items horizontally */
+    position: relative;
+    /* Keeps positioning in check */
+}
+
+.section5-paragraph {
+    line-height: 200%;
+    width: 1332px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Merriweather;
+}
+
+.footer {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgb(23, 116, 185);
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-footer {
+    margin-top: 100px;
+    height: 260px;
+    width: 300px;
+    margin-left: 400px;
+}
+
+.right-footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    height: 260px;
+    width: 600px;
+    margin-right: 200px;
+}
+
+.footer-logo {
+    object-fit: cover;
+    width: 400px;
+}
+
+.info-div {
+    width: 277px;
+    height: 137px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-header {
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgb(39, 170, 226);
+    font-family: Merriweather;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-text {
+    margin: 0;
+    font-family: Merriweather;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.category-section {
+    background-color: rgb(39, 170, 226);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    color: white;
+    font-size: 60px;
+    font-family: Merriweather;
+    font-weight: 800;
+}
+
+.section7 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section7-div {
+    margin-top: 20px;
+    width: 950px;
+    height: 284px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-list {
+    list-style: inside;
+}
+
+h6 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: Merriweather;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.list-text {
+    margin: 0;
+    font-family: Merriweather;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+li {
+    font-family: Merriweather;
+
+}
+
+.product-category-button {
+    width: 109.84px;
+    height: 34px;
+    margin: 4px 2px;
+    margin-right: 8px;
+    padding: 6px 12px;
+    border: solid 1px rgb(22, 32, 85);
+    font-family: Merriweather;
+    font-size: 14px;
+    background-color: rgb(22, 32, 85);
+    border-radius: 4px;
+    color: white;
+    font-weight: 400;
+}
+
+.row-divs {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+;
+
+.section7-p {
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.h4-alt {
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.product-grid {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product-grid-row {
+    display: flex;
+    flex-direction: row;
+    width: 284px;
+    height: 135px;
+}
+
+.product-image {
+    object-fit: contain;
+    width: 100%;
+}
+
+.grid-padding {
+    height: 100px;
+}
+
+.section8 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section8-div {
+    text-size-adjust: 100%;
+    margin-top: 100px;
+    width: 950px;
+    height: 284px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section8-heading {
+    margin: 0;
+    text-size-adjust: 100%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.section8-p {
+    text-align: center;
+}
+
+.section6 {
+    padding-bottom: 50px;
+}
+
+.section6-div {
+    width: 920px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.service-area-div {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.li1-div {
+    margin-left: 300px;
+}
+
+.li2-div {
+    margin-right: 300px;
+}
+
+.service-area-li {
+    color: rgb(22, 32, 85);
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.section9-heading {
+    margin-bottom: 30px;
+    text-size-adjust: 100%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section9 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section9-div {
+    text-size-adjust: 100%;
+    margin-top: 100px;
+    width: 950px;
+    height: 1084px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#email,
+#phone {
+    width: 276.664px;
+    height: 15.500px;
+    padding: 8px;
+}
+
+#businessType {
+    width: 294.66px;
+    height: 33.5px;
+}
+
+.form-group {
+    width: 276.66px;
+}

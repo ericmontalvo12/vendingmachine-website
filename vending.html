@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vending</title>
+    <link rel="stylesheet" href="vending.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="top-nav">
+        <div class="contact-div">
+            <div class="email-side">
+                <img src="email-icon.png" alt="">
+                <a class="email-anchor" href="mailto:eddy@gmail.com"> eddy@gmail.com</a>
+            </div>
+
+            <div class="phone-side">
+                <img src="phone-icon.png" alt="">
+                <a class="phone-anchor" href="tel:3053510004">(305) 351-0004</a>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="middle-nav"></nav>
+
+    <nav class="bottom-nav">
+        <div class="left-side-nav">
+            <img  onclick="window.location.href = 'vending.html'" class="logo" src="logo-header.jpg" alt="">
+        </div>
+        <div class="right-side-nav">
+            <div class="right-side-top">
+                <button onclick="window.location.href = 'vending.html'"class="nav-buttons">Home</button>
+                <button onclick="window.location.href = 'Aboutus.html'" class="nav-buttons">About Us</button>
+                <button onclick="window.location.href= 'products.html'" class="nav-buttons">Products</button>
+                <button onclick="window.location.href='Servicearea.html'" class="nav-buttons">Service Area</button>
+                <button onclick="window.location.href='contact.html'" class="nav-buttons">Contact</button>
+            </div>
+            <div class="right-side-bottom">
+                <button onclick="window.location.href='contact.html'" class="request-service-button">Request <u>FREE</u> Vending Service</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-section">
+        <div class="main-div">
+            <div class="div-row1"><h1>Miami Vending Services</h1></div>
+            <div class="div-row2"><p class="main-paragraph">Providing Superior Vending Services To <br> Businesses In The Miami, FL Area & Surronding Regions</p></div>
+            <div class="div-row3"><button onclick="window.location.href='contact.html'" class="main-button">Request FREE Vending Service</button>
+            </div>
+        </div>
+    </main>
+
+    <section class="section2">
+        <div class="section2-div">
+            <div><h2>Taking Pride In Providing Excellent Customer Service</h2></div>
+            <div class="section2-grid">
+
+                <div class="grid-column">
+                    <div><img class="grid-pictures" src="features1-1.jpg" alt=""></div>
+                    <h3>High-Tech Vending Machines</h3>
+                    <p class="grid-paragraph">We use the latest technology, such as cashless payment options, mobile app integration, and remote monitoring systems to improve the customer experience and increase efficiency.</p>
+                </div>
+
+                <div class="grid-column">
+                    <div><img class="grid-pictures" src="features2-1.jpg" alt=""></div>
+                    <h3>Wide Product Variety</h3>
+                    <p class="grid-paragraph">We offer a wide variety of products that cater to different tastes as well as dietary needs, such as healthy options and locally-sourced items. No matter your preferences or vending needs, we have what it takes to provide you with an unparalleled vending experience like none other!</p>
+                </div>
+
+                <div class="grid-column">
+                    <div><img class="grid-pictures" src="features3-1.jpg" alt=""></div>
+                    <h3>Superior Customer Service</h3>
+                    <p class="grid-paragraph">We provide excellent customer service which is exemplified by timely restocking, regular maintenance & quick responses to any issues or concerns that may arise. Additionally, providing a dedicated account manager to handle customer needs, including customizing the selection of products in the machines, sets us apart from the rest of our competition.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section3">
+        <div class="section3-div">
+            <div class="s3-top-row">
+                <h4 class="s3-heading"><u>Top-Notch-Vending Services</u></h4>
+                <h4 class="s3-paragraph">
+                    At ___ Vending LLC, our mission is to provide convenient, reliable & high-quality vending services to businesses & individuals in the Miami, Florida area. We strive to offer a wide selection of products that meet the diverse needs of our customers as well as ensure that our vending machines are well-maintained & always fully stocked. Our goal is to exceed customer expectations and to build lasting relationships based on trust & satisfaction!
+                </h4>
+            <div style="width: 1200px;"><script src="https://fast.wistia.com/embed/medias/2pdv8yyyax.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_2pdv8yyyax seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/2pdv8yyyax/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>            </div>
+        </div>
+    </section>
+
+    <section class="section4">
+        <div class="container">
+            <h4>Get Your FREE Vending Service!</h4>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <!-- First Row -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">Name <span>*</span></label>
+                        <input type="text" id="firstName" name="firstName" placeholder="First" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">&nbsp;</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Last" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="businessName">Business Name <span>*</span></label>
+                        <input type="text" id="businessName" name="businessName" required>
+                    </div>
+                </div>
+                <input type="hidden" name="access_key" value="545036cd-2dbb-49ca-8d0c-aef71bd4ac8a">
+
+    
+                <!-- Second Row -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email <span>*</span></label>
+                        <input  type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone <span>*</span></label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="businessType">Type of Business <span>*</span></label>
+                        <select id="businessType" name="businessType" required>
+                            <option value="apartment">Apartment</option>
+                            <option value="office">Office</option>
+                            <option value="retail">Retail</option>
+                            <option value="school">School</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <!-- Comments and CAPTCHA -->
+                <div class="form-group">
+                    <label for="comments">Questions / Comments</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+    
+                <div class="form-group captcha">
+                    <label>CAPTCHA</label>
+                    <span>2 + 3</span>
+                    <input type="text" id="captcha" name="captcha" placeholder="Enter the answer" required>
+                </div>
+    
+                <button class="submit-form-button" type="submit">Submit</button>
+            </form>
+        </div>            
+    </section>
+
+    <section class="section5">
+        <p class="section5-paragraph">
+            We bring vending to businesses, locations and facilities in the <strong>Miami,</strong> <strong>Florida</strong> area. <br>
+            Get a free vending machine for your business or office.  We’re a vending business that offers vending service throughout the <strong>Miami,</strong> <strong>Florida</strong> area. <br>
+            We offer Free Delivery, Installation & Service on Drink and Snack Machines. From installation to service, we manage everything. <br>
+            Let’s face it—you’ve got a business to run. Your time is limited. The last thing you need to worry about is vending. But here you are, searching for a vending machine because your staff and customers want one. Why not make it easy? <br>
+            With our free full-service program, you’ll receive 24-hour customer care and the products you want.  Simply fill out the form to Get Your Free Machine Now! <br>
+            Looking for <strong>Miami </strong>Vending Companies?  Use <strong>_____ Vending LLC</strong>for All Your Vending Needs.
+        </p>
+    </section>
+
+    <footer class="footer">
+        <div class="left-footer">
+            <img class="footer-logo" src="logo-header.jpg" alt="">
+        </div>
+        <div class="right-footer">
+            <div class="info-div">
+                <p class="footer-header">Business Hours</p>
+                <p class="footer-text"><strong>Mon – Fri:</strong> 8am – 5pm</p>
+                <p class="footer-text"><strong>Sat – Sun:</strong> Closed</p>
+                <p class="footer-text"><strong>Emergency:</strong> Anytime</p>
+            </div>
+            <div class="info-div">
+                <p class="footer-header">Our Location</p>
+                <p class="footer-text">Miami, FL 33134</p>
+                <p class="footer-text">(786) 351-0004</p>
+                <p class="footer-text">Send us a message</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
