@@ -714,4 +714,8 @@ li {
     .right-side-nav{
         width: 200px;
     }
+
+    .main-div{
+        width: 250px;
+    }
 }
