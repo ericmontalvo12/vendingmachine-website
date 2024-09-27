@@ -1,8 +1,8 @@
-body {
+ body {
     margin: 0;
 }
 
-p {
+p{
     font-family: Merriweather;
 }
 
@@ -10,8 +10,7 @@ p {
     top: 0;
     left: 0;
     right: 0;
-    height: 22px;
-    padding: 10px;
+    height: 45px;
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -21,12 +20,15 @@ p {
     border-bottom-style: solid;
 }
 
+.video-div{
+ width:100%;}
+
 .contact-div {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-right: 70px;
+    margin-right: 100px;
 }
 
 
@@ -59,7 +61,6 @@ p {
     height: 120px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     background-color: rgb(255, 255, 255);
 }
 
@@ -67,16 +68,15 @@ p {
     background-color: white;
     margin-left: 50px;
     height: 117px;
-    width: 100px;
+    width: 200px;
 }
 
 .logo {
     height: 100%;
-    cursor: pointer;
 }
 
 .right-side-nav {
-    margin-right: 20px;
+    margin-left:140px;
     display: flex;
     flex-direction: column;
 
@@ -94,13 +94,13 @@ p {
     border: none;
     background-color: transparent;
     color: rgb(39, 170, 226);
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
 }
 
 .right-side-bottom {
     margin-top: 10px;
-    margin-left: 140px;
+    margin-left: 220px;
 
 }
 
@@ -116,23 +116,16 @@ p {
 }
 
 .main-section {
-    background: url(palmdale-header-bg.jpeg);
-    no-repeat;
-    background-position: top center;
-    /* Specify position separately */
-    background-size: cover;
-    /* Ensure image covers the area */
+    background:url(palmdale-header-bg.jpeg); no-repeat;
+    background-position: top center; /* Specify position separately */
+    background-size: cover; /* Ensure image covers the area */
     width: 100%;
     height: 930px;
     display: flex;
-    align-items: flex-start;
-    /* Align items to the top */
-    justify-content: center;
-    /* Center items horizontally */
-    position: relative;
-    /* Keeps positioning in check */
-    margin-top: 10px;
-    /* Add margin for spacing */
+    align-items: flex-start; /* Align items to the top */
+    justify-content: center; /* Center items horizontally */
+    position: relative; /* Keeps positioning in check */
+    margin-top: 10px; /* Add margin for spacing */
 }
 
 .main-image {
@@ -144,7 +137,7 @@ p {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     margin-top: 100px;
-    width: 850px;
+    width: 1140px;
     height: 269px;
     right: 0px;
     display: flex;
@@ -152,27 +145,28 @@ p {
     align-items: center;
 }
 
-h1 {
+h1{
     margin-top: 20px;
     font-size: 64px;
     font-family: Merriweather;
-    color: white;
+    color:white;
 }
 
-.main-paragraph {
+.main-paragraph{
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
     font-size: 24px;
     font-family: Merriweather;
-    color: white;
+    color:white;
 }
 
-.div-row1 {
+.div-row1{
+    margin-top: 20px;
     height: 90px;
 }
 
-.main-button {
+.main-button{
     margin: 0;
     font-family: Merriweather;
     font-weight: bold;
@@ -187,19 +181,16 @@ h1 {
     cursor: pointer;
 }
 
-.section2 {
+.section2{
     width: 100%;
     height: 775px;
     display: flex;
-    align-items: flex-start;
-    /* Align items to the top */
-    justify-content: center;
-    /* Center items horizontally */
-    position: relative;
-    /* Keeps positioning in check */
+    align-items: flex-start; /* Align items to the top */
+    justify-content: center; /* Center items horizontally */
+    position: relative; /* Keeps positioning in check */
 }
 
-.section2-div {
+.section2-div{
     border-radius: 20px;
     margin-top: 100px;
     width: 1140px;
@@ -210,72 +201,61 @@ h1 {
     align-items: center;
 }
 
-.section2-grid {
+.section2-grid{
     margin-top: 30px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* More concise way to define 3 columns */
-    align-items: start;
-    /* Align items at the start */
-    justify-items: center;
-    /* Center items horizontally within their grid cells */
-    gap: 50px;
-    /* Optional: adds space between grid items */
+    grid-template-columns: repeat(3, 1fr); /* More concise way to define 3 columns */
+    align-items: start; /* Align items at the start */
+    justify-items: center; /* Center items horizontally within their grid cells */
+    gap: 50px; /* Optional: adds space between grid items */
 }
 
-.grid-column {
+.grid-column{
     display: flex;
-    flex-direction: column;
-    /* Change to column to stack image and text */
-    align-items: center;
-    /* Center items horizontally within the column */
-    text-align: center;
-    /* Center text for better aesthetics */
-    height: auto;
-    /* Remove fixed height for flexibility */
+    flex-direction: column ; /* Change to column to stack image and text */
+    align-items: center; /* Center items horizontally within the column */
+    text-align: center; /* Center text for better aesthetics */
+    height: auto; /* Remove fixed height for flexibility */
 }
 
-.grid-pictures {
+.grid-pictures{
     width: 189px;
 }
 
-h2 {
+h2{
     font-family: Merriweather;
     font-size: 28px;
     font-weight: 400;
     color: rgb(22, 32, 85);
 }
 
-h3 {
+h3{ 
     margin-top: 70px;
     margin-bottom: 0px;
     font-family: Merriweather;
     color: rgb(39, 170, 226);
-    font-size: 24px;
+    font-size:24px;
     font-weight: 800;
 }
 
-.grid-paragraph {
+.grid-paragraph{
     font-size: 16px;
     color: black;
     font-family: Merriweather;
     margin-top: 10px;
 }
 
-.section3 {
+.section3{
     background-color: rgb(39, 170, 226);
     width: 100%;
-    height: 1114px;
+    height: auto;
     display: flex;
-    align-items: flex-start;
-    /* Align items to the top */
-    justify-content: center;
-    /* Center items horizontally */
-    position: relative;
-    /* Keeps positioning in check */
+    align-items: flex-start; /* Align items to the top */
+    justify-content: center; /* Center items horizontally */
+    position: relative; /* Keeps positioning in check */
 }
 
-.section3-div {
+.section3-div{
     border-radius: 20px;
     margin-top: 70px;
     width: 1140px;
@@ -286,7 +266,7 @@ h3 {
     align-items: center;
 }
 
-.s3-top-row {
+.s3-top-row{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -295,34 +275,31 @@ h3 {
 }
 
 
-.s3-heading {
+.s3-heading{
     font-family: Merrierweather;
     color: white;
-    font-size: 34px;
+    font-size: 34px ;
     font-weight: 800;
     margin-bottom: 10px;
-}
+    }
 
-.s3-paragraph {
+.s3-paragraph{
     margin-top: 10px;
     font-family: Merrierweather;
     font-size: 28px;
     font-weight: 800;
     color: white;
-    text-align: center;
+    text-align:center;
 }
 
-.section4 {
+.section4{
     margin-top: 80px;
     width: 100%;
     height: 600px;
     display: flex;
-    align-items: flex-start;
-    /* Align items to the top */
-    justify-content: center;
-    /* Center items horizontally */
-    position: relative;
-    /* Keeps positioning in check */
+    align-items: flex-start; /* Align items to the top */
+    justify-content: center; /* Center items horizontally */
+    position: relative; /* Keeps positioning in check */  
 }
 
 .container {
@@ -357,11 +334,7 @@ label {
     font-weight: bold;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea,
-select {
+input[type="text"], input[type="email"], input[type="tel"], textarea, select {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
@@ -394,38 +367,33 @@ span {
     cursor: pointer;
 }
 
-.request-service-button:hover,
-.main-button:hover,
-.submit-form-button:hover {
+  button:hover {
     background-color: rgb(22, 32, 85);
     border: solid 1px rgb(39, 170, 226);
 }
 
-.form-group {
+.form-group{
     margin-right: 20px;
 }
 
-h4 {
+h4{
     font-family: Merriweather;
     font-size: 28px;
     font-weight: 700;
     color: rgb(22, 32, 85);
 }
 
-.section5 {
+.section5{
     margin-top: 50px;
     width: 100%;
     height: 280px;
     display: flex;
-    align-items: flex-start;
-    /* Align items to the top */
-    justify-content: center;
-    /* Center items horizontally */
-    position: relative;
-    /* Keeps positioning in check */
+    align-items: flex-start; /* Align items to the top */
+    justify-content: center; /* Center items horizontally */
+    position: relative; /* Keeps positioning in check */  
 }
 
-.section5-paragraph {
+.section5-paragraph{
     line-height: 200%;
     width: 1332px;
     text-align: center;
@@ -433,47 +401,47 @@ h4 {
     font-family: Merriweather;
 }
 
-.footer {
+.footer{
     border-top-style: solid;
     border-top-width: 1px;
     border-top-color: rgb(23, 116, 185);
     width: 100%;
-    height: 180px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.left-footer {
-    margin-top: 100px;
+.left-footer{
+    margin-top: 40px;
     height: 260px;
     width: 300px;
     margin-left: 400px;
 }
 
-.right-footer {
-    margin-top: 100px;
+.right-footer{
+    margin-top: 80px;
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
+    margin-left: 400px;
     height: 260px;
     width: 600px;
     margin-right: 200px;
 }
 
-.footer-logo {
+.footer-logo{
     object-fit: cover;
     width: 400px;
 }
 
-.info-div {
+.info-div{
     width: 277px;
     height: 137px;
     display: flex;
     flex-direction: column;
 }
 
-.footer-header {
+.footer-header{
     margin: 0;
     margin-bottom: 10px;
     color: rgb(39, 170, 226);
@@ -482,7 +450,7 @@ h4 {
     font-weight: 500;
 }
 
-.footer-text {
+.footer-text{
     margin: 0;
     font-family: Merriweather;
     font-size: 16px;
@@ -490,7 +458,7 @@ h4 {
 }
 
 
-.category-section {
+.category-section{
     background-color: rgb(39, 170, 226);
     width: 100%;
     height: 200px;
@@ -500,14 +468,14 @@ h4 {
     align-items: center;
 }
 
-h5 {
+h5{
     color: white;
     font-size: 60px;
     font-family: Merriweather;
     font-weight: 800;
 }
 
-.section7 {
+.section7{
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 304px;
@@ -516,40 +484,40 @@ h5 {
     align-items: center;
 }
 
-.section7-div {
+.section7-div{
     margin-top: 20px;
     width: 950px;
     height: 284px;
     right: 0px;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
 }
 
-.about-us-list {
+.about-us-list{
     list-style: inside;
 }
 
-h6 {
+h6{
     margin: 0;
     margin-bottom: 10px;
     font-family: Merriweather;
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 800 ;
 }
 
-.list-text {
+.list-text{
     margin: 0;
     font-family: Merriweather;
     font-size: 16px;
     margin-bottom: 10px;
 }
 
-li {
+li{
     font-family: Merriweather;
-
+    
 }
 
-.product-category-button {
+.product-category-button{
     width: 109.84px;
     height: 34px;
     margin: 4px 2px;
@@ -564,49 +532,47 @@ li {
     font-weight: 400;
 }
 
-.row-divs {
-    display: flex;
+.row-divs{
+    display:flex;
     align-items: center;
     justify-content: center
-}
+};
 
-;
-
-.section7-p {
+.section7-p{
     text-align: center;
-    font-size: 16px;
-
+    font-size: 16px;  
+    
 }
 
-.h4-alt {
+.h4-alt{
     margin-top: 20px;
     font-weight: 400;
 }
 
-.product-grid {
+.product-grid{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.product-grid-row {
+.product-grid-row{
     display: flex;
     flex-direction: row;
     width: 284px;
     height: 135px;
 }
 
-.product-image {
+.product-image{
     object-fit: contain;
     width: 100%;
 }
 
-.grid-padding {
+.grid-padding{
     height: 100px;
 }
 
-.section8 {
+.section8{
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 500px;
@@ -615,139 +581,307 @@ li {
     align-items: center;
 }
 
-.section8-div {
+.section8-div{
     text-size-adjust: 100%;
     margin-top: 100px;
     width: 950px;
     height: 284px;
     right: 0px;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
 }
 
-.section8-heading {
+.section8-heading{
     margin: 0;
     text-size-adjust: 100%;
     font-size: 18px;
     font-weight: 700;
 }
 
-.section8-p {
+.section8-p{
     text-align: center;
 }
 
-.section6 {
+.section6{
     padding-bottom: 50px;
 }
 
-.section6-div {
+.section6-div{
     width: 920px;
     margin-top: 100px;
     margin-left: 300px;
 }
 
-.service-area-div {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+
+@media (max-width: 600px) {
+body {
+    margin: 0;
+    font-size: 14px; /* Set a base font size for smaller screens */
 }
 
-.li1-div {
-    margin-left: 300px;
+ 
+ .video-div{
+  width:100%;
+ }
+
+ .div-row1{
+    margin-top: 0px;
 }
 
-.li2-div {
-    margin-right: 300px;
+
+h1{
+    margin-bottom: 0px;
+    font-size: 20.8px;
+    text-align: center;
 }
 
-.service-area-li {
-    color: rgb(22, 32, 85);
-    list-style: none;
-    margin-bottom: 10px;
+.main-paragraph{
+    margin-top: 10px;
+    font-size: 16px;
 }
 
-.section9-heading {
-    margin-bottom: 30px;
-    text-size-adjust: 100%;
-    font-size: 18px;
-    font-weight: 600;
+
+
+/* Header and Navigation */
+.top-nav, .middle-nav, .bottom-nav {
+    padding:0px;
+    width:100%;
 }
 
-.section9 {
-    background-color: rgb(255, 255, 255);
+ .top-nav{
+   height:auto;
+ }
+
+.contact-div {
+    width:320px;
+    margin-right: 10px;
+    flex-direction: column; /* Stack contact info vertically on smaller screens */
+    align-items: flex-end;
+}
+
+.section3-div{
     width: 100%;
-    height: 700px;
-    display: flex;
+}
+
+.s3-top-row{
+    width: 100%; 
+}
+
+/* Adjusting the logo and navigation buttons for mobile */
+.bottom-nav {
     flex-direction: column;
     align-items: center;
+    height: auto;
 }
 
-.section9-div {
-    text-size-adjust: 100%;
-    margin-top: 100px;
-    width: 950px;
-    height: 1084px;
-    right: 0px;
-    display: flex;
+ .logo{
+  width: 200px;
+ }
+
+.left-side-nav {
+    width:200px
+    margin-left: 10px;
+    text-align: center;
+}
+
+.right-side-nav{
+    margin-left: 0px;
+}
+
+.s3-paragraph{
+    font-size: 20px;
+}
+
+
+
+.right-side-top, .right-side-bottom {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.right-side-top .nav-buttons {
+    display: block;
+    margin: 5px 0;
+}
+
+ .nav-buttons{
+  width:70px;
+ }
+
+.right-side-bottom {
+    margin-left: 0;
+}
+
+.main-section {
+    align-items: top;
+    height: 500px;
+    width:100%;
+}
+
+/* Main content adjustments */
+.main-div {
+    margin-top:50px;
+    width: 80%;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+.main-button {
+    font-size: 18px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.section2{
+    height: 1800px;
+}
+
+/* Section 2 grid adjustments */
+.section2-grid {
+    grid-template-columns: 1fr; /* Single column for mobile */
+}
+
+.grid-column {
+    margin-bottom: 40px;
+}
+
+/* Form adjustments */
+.container {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.submit-form-button {
+    width: 100%;
+}
+
+.section3{
+    height: auto;
+}
+
+.section3-paragraph{
+    font-size: 16px;
+}
+/* Section 5 text adjustment */
+
+.section5{
+    height: auto;
+}
+.section5-paragraph {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 12px;
+}
+
+/* Footer adjustments */
+
+
+.left-footer, .right-footer {
+    width: 100px;
+    margin: 0;
+    text-align: center;
+}
+
+.footer-logo{
+    width: 300px;
+}
+
+.right-footer {
     flex-direction: column;
 }
-
-#email,
-#phone {
-    width: 276.664px;
-    height: 15.500px;
-    padding: 8px;
 }
 
-#businessType {
-    width: 294.66px;
-    height: 33.5px;
-}
 
-.form-group {
-    width: 276.66px;
-}
 
-@media (min-width: 992px){
+
+/* Media Queries for Tablets (768px and above) */
+@media (min-width: 768px) {
+
+    .left-side-nav{
+     width:200px;
+    }
+
     .right-side-nav{
-        width: 100%;
+        margin-left: 50px;
+    }
+
+    .request-service-button{
+        margin-right: 40px;
     }
 
     .main-div{
-        width: 100%;
+        width: 600px;
     }
 
-    .section-9-div{
-        width: 100%;
+    .section2{
+        height: 1500px;
+    }
+
+    h1{
+        font-size: 40px;
+        margin: 0px;
+    }
+
+    .main-paragraph{
+        margin-top: 0px;
+    }
+
+    .section3{
+        height: auto;
+    }
+
+
+    .contact-div {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .bottom-nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .right-side-top {
+        flex-direction: row;
+    }
+
+    .main-section {
+        height: 800px;
+    }
+
+    .section2-grid {
+        grid-template-columns: 1fr; /* Two columns on tablet */
+    }
+
+    .right-footer {
+        align-items: end;
+        justify-content: space-between;
+        flex-direction: row;
     }
 }
 
-@media (min-width: 768px){
-    .right-side-nav{
-        width: 100%;
+/* Media Queries for Desktop (1024px and above) */
+@media (min-width: 1024px) {
+    .main-section {
+        height: 930px;
+    }
+
+    .section2{
+        height: auto;
     }
 
     .main-div{
-        width: 100%;
+        width:40%;
     }
 
-    .section-9-div{
-        width: 100%;
-    }
-}
-
-@media (min-width: 601px){
-    .right-side-nav{
-        width: 100%;
+    .section2-grid {
+        grid-template-columns: repeat(3, 1fr); /* Three columns for desktop */
     }
 
-    .main-div{
-        width: 100%;
-    }
-
-    .section-9-div{
-        width: 100%;
+    .section3{
+        height: 1100px;
     }
 }
