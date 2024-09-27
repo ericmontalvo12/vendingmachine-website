@@ -710,6 +710,16 @@ li {
     width: 276.66px;
 }
 
+@media (min-width: 768px){
+    .right-side-nav{
+        width: 100%;
+    }
+
+    .main-div{
+        width: 100%;
+    }
+}
+
 @media (max-width: 768px){
     .right-side-nav{
         width: 100%;
