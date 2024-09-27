@@ -709,3 +709,9 @@ li {
 .form-group {
     width: 276.66px;
 }
+
+@media (max-width: 600px){
+    .right-side-nav{
+        width: 200px;
+    }
+}
