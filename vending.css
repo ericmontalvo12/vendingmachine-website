@@ -732,6 +732,10 @@ li {
     .main-div{
         width: 100%;
     }
+
+    .section-9-div{
+        width: 100%;
+    }
 }
 
 @media (min-width: 601px){
@@ -740,6 +744,10 @@ li {
     }
 
     .main-div{
+        width: 100%;
+    }
+
+    .section-9-div{
         width: 100%;
     }
 }
