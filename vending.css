@@ -710,7 +710,7 @@ li {
     width: 276.66px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 768px){
     .right-side-nav{
         width: 100%;
     }
